@@ -1,0 +1,10 @@
+CREATE DATABASE students;
+USE students;
+CREATE TABLE studetails (
+ id INT PRIMARY KEY,
+ name VARCHAR(50),
+ age INT
+);
+INSERT INTO studetails (id, name, age) VALUES
+(1, 'James', 25),
+(2, 'Smith', 30);
